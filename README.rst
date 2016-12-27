@@ -166,3 +166,14 @@ Luigi was built at `Spotify <https://www.spotify.com/us/>`_, mainly by
 have contributed since open sourcing in late 2012.
 `Arash Rouhani <https://github.com/tarrasch>`_ is currently the chief
 maintainer of Luigi.
+
+
+Update
+------
+
+* pip install python-daemon
+* python setup.py install
+* python setup.py build
+* luigid # Using the Central Planner
+* cd examples/ 
+* PYTHONPATH='.' luigi --module top_artists AggregateArtists --date-interval 2016-12 # add a task
